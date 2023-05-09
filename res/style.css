@@ -6,35 +6,44 @@ hr {
     margin: 5%;
 }
 
+.grey {
+    color: #bfbfbf
+}
+
+.italic {
+    font-style: italic;
+}
+
 .hide {
     display: none;
 }
 
 .panels {
+    align-items: center;
     display: flex;
     height: 97vh;
+    justify-content: center;
     width: 98vw;
 }
 
 #top-panel {
-    align-items: center;
     flex-direction: row;
 }
 
 #top-panel-left {
+    align-content: center;
     padding: 5%;
-    width: 49vw;
 }
 
 #logo {
     border-radius: 100%;
-    width: 35vw;
+    width: 30vw;
 }
 
 #top-panel-right {
-    padding: 5%;
+    padding: 10%;
     text-align: center;
-    width: 49vw;
+    
 }
 
 #button-group {
@@ -49,9 +58,31 @@ hr {
 }
 
 button {
+    margin: 1px;
     padding: 14px;
     background-color: white;
     border-color: #59c4f6;
     border-radius: 20px;
     color: black;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .panels {
+        height: 89vh;
+        width: 98vw;
+    }
+
+    #top-panel {
+        flex-direction: column;
+    }
+
+    #top-panel-left {
+        padding: 1%;
+    }
+
+    #logo {
+        width: 40vw;
+    }
+
+  }
