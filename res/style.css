@@ -1,0 +1,57 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+hr {
+    margin: 5%;
+}
+
+.hide {
+    display: none;
+}
+
+.panels {
+    display: flex;
+    height: 97vh;
+    width: 98vw;
+}
+
+#top-panel {
+    align-items: center;
+    flex-direction: row;
+}
+
+#top-panel-left {
+    padding: 5%;
+    width: 49vw;
+}
+
+#logo {
+    border-radius: 100%;
+    width: 35vw;
+}
+
+#top-panel-right {
+    padding: 5%;
+    text-align: center;
+    width: 49vw;
+}
+
+#button-group {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buttons {
+    margin: 0 2vw;
+}
+
+button {
+    padding: 14px;
+    background-color: white;
+    border-color: #59c4f6;
+    border-radius: 20px;
+    color: black;
+}
